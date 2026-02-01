@@ -147,7 +147,7 @@ function check() {
     let isLogged = JSON.parse(localStorage.getItem("currentUser"));
     if (!isLogged) {
         alert("Please login first!");
-        window.location.href = "SignIn.html";
+        window.location.href = "signIn.html";
     }
 }
 
@@ -156,7 +156,7 @@ function check() {
 
 function signOut() {
     localStorage.removeItem("currentUser");
-    window.location.href = "SignIn.html";
+    window.location.href = "signIn.html";
 }
 
 
